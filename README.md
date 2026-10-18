@@ -1,6 +1,6 @@
 <h1 align="center">ESP32 Smart Dehumidifier Controller</h1>
 
-Following the previous project with Raspberry Pi, this is an improved IoT project built with the ESP32 and the ESP-IDF framework. A lighter and compacter environmental controller comparing to bulky heavy Raspberry Pi. The system monitors ambient temperature and humidity in real-time using a DHT11 sensor. When the humidity is too high, it triggers a servo motor (simulating the physical button press of a dehumidifier). It also hosts a built-in Web Server to provide a live monitoring dashboard and calculates accumulated energy consumption and costs.
+Following the previous project with Raspberry Pi, this is an improved IoT project built with the ESP32 and the ESP-IDF framework. A lighter and compacter environmental controller comparing to relatively heavier and bulkier Raspberry Pi. The system monitors ambient temperature and humidity in real-time using a DHT11 sensor. When the humidity is too high, it triggers a servo motor (simulating the physical button press of a dehumidifier). It also hosts a built-in Web Server to provide a live monitoring dashboard and calculates accumulated energy consumption and costs.
 
 ## Features
 
@@ -9,7 +9,7 @@ Following the previous project with Raspberry Pi, this is an improved IoT projec
 * **Energy & Cost Estimation**: Automatically tracks the operating time of the dehumidifier and estimates the total cost based on a configured power rating (200W) and electricity rate (€0.24/kWh).
 * **Time Synchronization (SNTP)**: Automatically syncs with NTP servers upon connection to output accurate, timestamped console logs.
 
-## Screenshots & Wiring
+## Gallery
 
 **Wiring:**
 ![Perfboard Wiring](Wiring.jpg)
