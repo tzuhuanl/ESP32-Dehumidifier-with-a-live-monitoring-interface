@@ -11,6 +11,7 @@ Following the previous project with Raspberry Pi, this is an improved IoT projec
 
 ## Screenshots & Wiring
 
+**Wiring:**
 ![Perfboard Wiring](Wiring.jpg)
 
 **Full Setup (ESP32, DHT11, and Servo on Dehumidifier):**
